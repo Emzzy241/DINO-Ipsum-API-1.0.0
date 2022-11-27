@@ -14,12 +14,12 @@ import dinoImage from "./assets/images/dno1.png";
 
 
 $(document).ready(() =>{
-
+    
+    // for the imported Javascript logo for application
     let iconImg = $(".appImg");
-    iconImg.attr("href", jsImage)
+    iconImg.attr("href", jsImage);
 
-    $(".name").text("hola, me name is Emmanuel");
-
+    // for the imported dinosaur image
     let dinoImg = $(".dinoImg");
     dinoImg.attr("src", dinoImage);
 
