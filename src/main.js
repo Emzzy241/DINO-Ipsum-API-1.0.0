@@ -80,6 +80,3 @@ $(document).ready(() =>{
 
 
 });
-
-// the endpoint to use: https://dinoipsum.com/api/?format=json&words=6&paragraphs=3
-// in the endpoint you can edit both paragraphs and words
