@@ -34,9 +34,11 @@ $(document).ready(() =>{
 
         // getting the number of dinosaur paragraph user wants
         let noOfDinosaursParagraph = $("#numParagraphs").val();
-        
-        
+        // clearing this input fields after submitting 
+        $("#numParagraphs").val("");
+
         let noOfDinosaursNames = $("#numWords").val();
+        $("#numWords").val("");
 
         // after taking in my values, its time to make my api call
 
@@ -70,10 +72,16 @@ $(document).ready(() =>{
         // time to write the function I called earlier on that would get executed when my apiCall request was successful
 
         function getDinos(getMeDinosaurs){
-            $(".dOne").text(`${getMeDinosaurs[0][0]}`)
-            $(".dTwo").text(`${getMeDinosaurs[0][0]}`)
-            $(".dThree").text(`${getMeDinosaurs[0][0]}`)
-            $(".dFour").text(`${getMeDinosaurs[0][0]}`)
+            // getting four dinosaur names for my users
+            $(".dOne").text(`${getMeDinosaurs[0][0]}`);
+            
+            $(".dTwo").text(`${getMeDinosaurs[0][1]}`);
+            
+            $(".dThree").text(`${getMeDinosaurs[0][2]}`);
+            
+            $(".dFour").text(`${getMeDinosaurs[0][3]}`);
+            
+            
         }
 
     });
