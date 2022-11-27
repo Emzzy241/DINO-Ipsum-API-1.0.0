@@ -19,7 +19,7 @@ _In this application I make my users happy or should I say users that love anima
 ## Setup/Installation
 * First clone the project on your System(git clone _REPOSITORY-NAME_)
 * Run npm install in the Terminal(e.g the git bash Terminal). with this, all of the dependencies of the application gets installed
-* You're good to go, Run npm run start to start the project for you on the webpack dev server. Yes it is an apiCall but you do not need an apikey to run this applcation all thanks to the Dino Ipsum API
+* You're good to go, Run npm run start to start the project for you on the webpack dev server. Yes it is an apiCall project but you do not need an apikey to run this applcation all thanks to the Dino Ipsum API
 
 
 ## Detected Bugs/ Issues
