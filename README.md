@@ -24,8 +24,8 @@ _In this application I make my users happy or should I say users that love anima
 
 ## Detected Bugs/ Issues
 * _No detected bugs_
-* _The omly bug you will definitely encounter is if you fail to follow any of the Setup/Installation Information I gave you_
-* _Note: as at the launch of this Application there are no bugs but this is not the finished product as I will be adding more features later on. If anyone comes in contact with a bug, be sure to hit me up on social media or email me @emzzyoluwole@gmail.com. WATCH OUT FOR VERSION 1.1.0 WHICH IS COMING SOON. Also in version 1.1.0, I would be making use of some thing called promises to make my API CALLS and not callbacks like i did here, and this is just to figure out some of the other ways to make API calls without having to use callbacks which might lead to a callback hell._
+* _The only bug you will definitely encounter is if you fail to follow any of the Setup/Installation Information I gave you_
+* _Note: as at the launch of this Application there are no bugs but this is not the finished product as I will be adding more features later on. If anyone comes in contact with a bug, be sure to hit me up on social media or email me @emzzyoluwole@gmail.com. WATCH OUT FOR VERSION 1.1.0 WHICH IS COMING SOON. Also in version 1.1.0, I would be making use of some thing called promises to make my API CALLS and not callbacks like i did here, and this is just to figure out some of the other ways to make API calls without having to use callbacks which might lead to a callback hell. TO add to this, there is no separation of concern(logic) in this version but checkout higher versions for that_
 
 ## WebLink
 https://emzzy241.github.io/Yay-Crypto-Stock/
