@@ -14,12 +14,12 @@ import dinoImage from "./assets/images/dno1.png";
 
 
 $(document).ready(() =>{
-
+    
+    // for the imported Javascript logo for application
     let iconImg = $(".appImg");
-    iconImg.attr("href", jsImage)
+    iconImg.attr("href", jsImage);
 
-    $(".name").text("hola, me name is Emmanuel");
-
+    // for the imported dinosaur image
     let dinoImg = $(".dinoImg");
     dinoImg.attr("src", dinoImage);
 
@@ -88,6 +88,3 @@ $(document).ready(() =>{
 
 
 });
-
-// the endpoint to use: https://dinoipsum.com/api/?format=json&words=6&paragraphs=3
-// in the endpoint you can edit both paragraphs and words
