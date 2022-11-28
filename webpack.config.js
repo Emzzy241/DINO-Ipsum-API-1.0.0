@@ -43,7 +43,7 @@ module.exports = {
       template: './src/index.html',
       inject: 'body'
     }),
-    // adding the .env plugin to the plugins array
+    // adding the .env plugin to the plugins array for a .env file configuration anytime I use one
     new Dotenv()
   ],
   module: {
