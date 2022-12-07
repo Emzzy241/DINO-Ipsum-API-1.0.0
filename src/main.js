@@ -13,6 +13,17 @@ import jsImage from "./assets/images/js-badge.svg";
 import dinoImage from "./assets/images/dno1.png";
 
 
+// a function for clearing all fields(the DOM) anytime user wants to search for dinosaurs
+function clearFields() {
+    $("#numParagraphs").val("");
+    $("#numWords").val("");
+    $(".error").text("");
+    $(".dOne").text("");
+    $(".dTwo").text("");
+    $(".dThree").text("");
+    $(".dFour").text("");
+}
+
 $(document).ready(() =>{
     
     // for the imported Javascript logo for application
@@ -34,11 +45,13 @@ $(document).ready(() =>{
 
         // getting the number of dinosaur paragraph user wants
         let noOfDinosaursParagraph = $("#numParagraphs").val();
-        // clearing this input fields after submitting 
-        $("#numParagraphs").val("");
+        
 
         let noOfDinosaursNames = $("#numWords").val();
-        $("#numWords").val("");
+        
+        // calling a function for clearing fields everytime me users search for Dinosaurs
+        clearFields();
+
 
         // after taking in my values, its time to make my api call
 
